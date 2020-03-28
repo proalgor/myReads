@@ -6,7 +6,7 @@ class SearchBooks extends Component{
         return (
             <div className="search-books">
                 <div className="search-books-bar">
-                    <button className="close-search" onClick={}>Close</button>
+                    <button className="close-search">Close</button>
                     <div className="search-books-input-wrapper">
 
                         <input type="text" placeholder="Search by title or author"/>
@@ -20,3 +20,5 @@ class SearchBooks extends Component{
         );
     }
 }
+
+export default SearchBooks
