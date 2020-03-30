@@ -31,8 +31,7 @@ class SearchBooks extends Component{
                 </div>
                 <div className="search-books-results">
                     <ol className="books-grid">
-                        {this.state.books!==undefined && books.map((book,index)=>(<Book key={index} book={book}/>))}
-                        {console.log(this.state.books)}
+                        {this.state.books!==undefined && books.map((book,index)=>(<Book key={index} book={book} onChange={this.props.change}/>))}
                     </ol>
                 </div>
             </div>
